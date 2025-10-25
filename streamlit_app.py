@@ -36,7 +36,7 @@ except Exception:
 
 # ---------------- Page ----------------
 st.set_page_config(page_title="Avatharam-2", layout="centered")
-st.title("Avatharam-2 · ChatGPT Interface")
+st.title("Avatharam-2 \n ChatGPT Interface")
 
 st.markdown(
     """
