@@ -272,7 +272,7 @@ OPENAI_HEADERS = {
 
 def chatgpt_reply(user_text: str, system: str = "You are a clear, concise assistant.") -> str:
     payload = {
-        "model": "gpt-5-mini",
+        "model": "gpt-5-nano",
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user_text},
